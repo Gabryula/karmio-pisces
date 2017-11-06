@@ -1,0 +1,53 @@
+html,body{ width:100%; height:100%; min-height:650px; background:#dc7a2e;}
+body {margin:0; padding:0; font:normal 12px/2 Arial, 微软雅黑; color:#666;}
+a:link{ text-decoration:none;}
+a:visited {	text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {color: #F00;}
+img{ border:0;}
+.left{ float:left;}
+.right{ float:right;}
+.clear{ clear:both; font:0/0; height:0;}
+ul,ul li{ list-style:none; margin:0; padding:0;}
+.top{ background:url(../images/customer/top.jpg) 0 0 no-repeat; width:100%; height:94px;}
+.user{ text-align:right; padding:10px 30px; height:39px; color:#FFF;}
+.user a{ color:#FFF;}
+.nav{text-align:right; padding:0 30px;}
+.nav a{ display:inline-block; width:106px; height:35px; background:url(../images/customer/menu_tab.png) 0 0 no-repeat; text-align:center;font:normal 14px/34px Arial, 微软雅黑; color:#fa9a43;}
+
+.main{ background:#FFF; border:1px solid #CCC; margin:0 20px; padding:20px;}
+h1{ margin:0;font: bold 15px/2 Arial, 微软雅黑;}
+.youan{}
+.xiaobt{ text-align:center; font-weight:bold; padding:5px;}
+.xiaobt a{ color: #333;}
+.xiaobt .on{ color: #eb8d2b;}
+.xiaobt2{ text-align:left; font-weight:bold;}
+
+.headphoto{}
+.khziliao{ padding:10px;}
+.gxt{ text-align:center;}
+
+.infomationarea{padding:10px;}
+.infomationarea span{display:inline-block; width:260px;padding-top: 12px;}
+.infomationarea label{ display:inline-block; width:80px; text-align:right;}
+.infomationarea select{ width:150px;}
+.infomationarea p{margin-left: 67px;}
+.searcharea{border:1px solid #CCC; border-radius:5px; padding:10px;}
+.searcharea span{ }
+.searcharea label{ display:inline-block; width:80px; text-align:right;}
+.searcharea em{ color:#F00;}
+.searcharea select{ width:150px;}
+.searcharea textarea{ width:750px;}
+.anniu{ padding-left:80px;}
+.bgsm label{ font-weight:bold; color:#eb8d2b;}
+.jieguo{ width:100%; background: url(../images/customer/icon-arrow.png) 10px center no-repeat #fcebd1; border-top:1px solid #eb8e3e; text-indent:30px; margin:10px 0;}
+.jgtable{ background:#999;}
+.jgtable th{ background: url(../images/customer/tablebg.png) 0 bottom repeat-x;}
+.jgtable td{ background:#fff;}
+.jgtable .tablefoot{ background: url(../images/customer/tablebg.png) 0 bottom repeat-x;}
+
+.jftable{ background:#999;}
+.jftable th{ background:#eb8d2b;}
+.jftable td{ background:#fff;}
+.jftable .tablefoot{ background: url(../images/customer/tablebg.png) 0 bottom repeat-x;}
+.foot{ color:#FFF; text-align:center;}

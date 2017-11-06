@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" 
+	"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<!--app前段应用下载  xml-->
+<mapper namespace="com.web.mapper.AppDownloadMapperInterface">
+
+	<resultMap type="AppDownload" id="appDownloadResultMap">
+		<result column="VERSION" property="version"/>
+		<result column="UPLOAD_DATE" property="uploadDate"/>
+		<result column="DOWNLOAD_URL" property="downloadUrl"/>
+		<result column="TITLE" property="title"/>
+		<result column="OS" property="os"/>
+		<result column="DEVICE" property="device"/>
+	</resultMap>
+	
+	<!-- app前段应用总数量 -->	 
+	<select id="getCountAppDownload" parameterType="AppDownload" resultType="int">
+	<![CDATA[
+		select count(*) from T_APP_DOWNLOAD t
+	]]>
+	</select>
+	
+	<!-- app前段应用分页查询-->	 
+	<select id="selectAppDownloadPageList" parameterType="AppDownload" resultMap="appDownloadResultMap">
+		select * from 
+       		(select row_.*,rownum rownum_ from
+       			(select * from T_APP_DOWNLOAD t
+       				order by t.UPLOAD_DATE desc
+               	)
+            <![CDATA[
+       		row_ where rownum <= #{page.lastResult}
+       		]]>
+       		)
+       	<![CDATA[
+     	where rownum_ > #{page.currentResult}
+     	]]>
+	</select>
+	
+</mapper>

@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+body{background-color:#FAFBFD;left:0px;top:0px;right:0px;bottom:0px;margin:0px;font-family: Microsoft Yahei,Arial, sans-serif;font-size: 12px;text-align: center;}
+a{text-decoration:none;}
+.clear{clear:both;}
+table.info{width:100%;}
+table.info tr td{padding:5px 0px;text-align:left;font-size:12px;}
+table.info tr td span{color:red;width:30px;display:inline-block;text-align:center;}
+input[type="text"]{width:250px;}
+a.myBtn,a.myBtn em{background-image:url(../images/lhgdg_bg.png);background-repeat:no-repeat;vertical-align: middle;}
+a.myBtn,a.myBtn em{display:inline-block;height:21px;cursor: pointer;}
+a.myBtn{text-decoration:none;background-position:-32px -41px;padding-left:15px;color:#000;cursor:default;margin-right:5px;}
+a.myBtn:hover{background-position:-32px -83px;}
+a.myBtn em{font-style:normal;background-position:right -62px;padding-right:15px;line-height:21px;line-height:24px\0;font-size:12px;}
+a.myBtn:hover em{background-position:right -104px;}
+
+.mainDiv{margin:10px 10px 20px 10px;text-align:left;border-bottom:1px dotted blue;height:auto;}
+.mainDiv .content{}
+.seperator{height:14px;}
+.seperator .cut_off_line{border-bottom:1px dotted blue;width:95%;float:left;height:7px;}
+.seperator .delete{float:right;color:blue;}
+.mainDiv .content .input_text{width:100%;float:left;}

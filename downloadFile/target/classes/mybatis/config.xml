@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE configuration PUBLIC "-//mybatis.org//DTD SQL Map Config 3.0//EN"  
+	"http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+	<typeAliases>
+		<!-- app应用下载 -->
+    	<typeAlias alias="AppDownload" type="com.web.entity.AppDownload"/>
+	</typeAliases>
+	
+	<mappers>
+		<!-- app应用下载 -->
+        <mapper resource="mybatis/web/AppDownload.xml"/>
+	</mappers>
+</configuration>
+
+
+

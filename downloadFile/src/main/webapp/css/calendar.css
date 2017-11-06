@@ -1,0 +1,97 @@
+@CHARSET "UTF-8";
+/*
+
+	calendar css
+	author wangyu
+	
+	CONTENTS ----------
+	
+	   	1.BODY
+	   	2.DEFAULT STYLING
+	   	3.HEADINGS
+	   	4.LINKS
+	   	5.LAYOUT
+	   	6.WIDGET
+		7.PAGE
+	   
+    -------------------
+    
+    COLOURS -----------
+		blue #278dab
+        green #339900    
+    -------------------
+*/
+
+/*1、BODY
+ ------------------------------------------------------------------------------------*/
+html,body{ width:100%; height:100%; min-height:650px; background:#dc7a2e;}
+body {margin:0; padding:0; font:normal 12px/2 Arial, 微软雅黑; color:#666;}
+/*2、DEFAULT STYLING
+ -------------------------------------------------------------------------------------*/
+.clear{ clear:both; font:0/0; height:0;}
+.left{float:left;}
+.right{float:right;}
+ul,ul li{ list-style:none; margin:0; padding:0;}
+
+/*3.HEADINGS
+ -------------------------------------------------------------------------------------*/
+h1{ margin:0;font: bold 15px/2 Arial, 微软雅黑;}
+/*LINK
+ -------------------------------------------------------------------------------------*/
+a:link{ text-decoration:none;}
+a:visited {	text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {color: #F00;}
+
+/*5.LAYOUT
+ -------------------------------------------------------------------------------------*/
+.main{ background:#FFF; border:1px solid #CCC; margin:0 20px; padding:20px;min-height:560px;}
+.line{ clear:both; width:100%; height:10px; line-height:10px; background:url(../images/customer/line.png) 0 0 repeat-x;}
+.foot{ color:#FFF; text-align:center;}
+.title1{ width:100%; background: url(../images/customer/icon-arrow.png) 10px center no-repeat #fcebd1; border-top:1px solid #eb8e3e; text-indent:30px; margin:10px 0;}
+.informationarea{padding:10px;}
+.infotable{width:100%;none;}
+.infotable td:nth-child(odd){width:9%;text-align:right;padding-right:5px;}
+.infotable td:nth-child(even){width:24%;text-align:left;padding-left:5px;}
+
+.buttonarea{padding:10px;}
+.buttonarea a{display: inline-block;margin:0 auto;}
+
+
+/*6.WIDGET
+ -------------------------------------------------------------------------------------*/
+img{ border:0;}
+input[type='text']{width:180px;}
+input[type='text'].longTxt{width:500px;}
+select{width:180px;}
+/*7.PAGE
+ -------------------------------------------------------------------------------------*/
+/*PAGE CALENDAR*/
+#calendar{width:800px;margin:0 10 0 10;float:left;}
+.itemcontent{float:left;width:270px;margin-left:20px;margin-top:50px;}
+.itemdetail{width:100%;height:100px;padding:5px;border:1px solid #278DAB;border-radius:3px;margin-bottom:14px;}
+.itemdetail h2{height:14px;line-height:14px;margin:0px;padding:0px;}
+.itemdetail h2 span{display:inline-block;float:left;font:bold 14px Arial, 微软雅黑; color:#666;height:100%;}
+.itemdetail h2 a{display:inline-block;float:right;vertical-align: baseline;;height:100%;font:normal 12px Arial, 微软雅黑; color:#0000FF;
+                 text-decoration: none;}
+.itemdetail p{line-height:14px;display:block;width:100%;}
+.itemdetail p label{display:inline-block;float:left;}
+.itemdetail p span{display:inline-block;float:right;padding-right:10px;}
+
+/*PAGE 客户列表*/
+.smallcontainer{ background:#FFF; margin:10px;}
+.smallcontainer fieldset.searcharea{border:1px solid #CCC; border-radius:5px; padding:10px;margin-bottom:10px;}
+.smallcontainer .searcharea span{display:inline-block;width:40%; }
+.smallcontainer .searcharea label{ display:inline-block; width:80px; text-align:right;}
+.smallcontainer .searcharea em{ color:#F00;}
+.smallcontainer .searcharea select{ width:150px;}
+
+.jgtable{ background:#999;}
+.jgtable th{ background: url(../images/customer/tablebg.png) 0 bottom repeat-x;}
+.jgtable td{ background:#fff;}
+.jgtable .tablefoot{ background: url(../images/customer/tablebg.png) 0 bottom repeat-x;}
+
+/*PAGE 行事历-目标*/
+.week{width:30%;float:left;margin-left:20px;padding-top:5px;}
+.date h2{font:normal 12px/2 Arial, 微软雅黑;font-size:1.5em;font-weight:bold;color:#666;margin-top:0;margin-bottom:0;display:inline-block;}
+.date a{color:#000000;font-weight:bold;padding:10px;display:inline-block;}

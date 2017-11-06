@@ -1,0 +1,25 @@
+@charset "utf-8";
+html {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+.clear {
+    clear: both;
+    height: 0;
+    overflow: hidden;
+}
+.left {
+    float: left;
+}
+.right {
+    float: right;
+}
+select, option, input, button {
+    margin: 0;
+    padding: 0;
+}

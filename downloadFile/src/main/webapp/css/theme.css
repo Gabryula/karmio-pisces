@@ -1,0 +1,9 @@
+@CHARSET "UTF-8";
+table{border-collapse:separate;border:none;}
+table thead tr{border:none;}
+table thead tr td{border:none;height:0px;line-height:0px;}
+table thead tr th{border:none;height:0px;line-height:0px;}
+table tbody tr{border:none;}
+table tbody tr td{border:none;background-color:#278DAB;}
+table tbody tr th{border:none;width:0px;width:0px;}
+#tableTemplate{display:none;}

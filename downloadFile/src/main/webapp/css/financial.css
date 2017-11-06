@@ -1,0 +1,258 @@
+@charset "utf-8";
+@import "base.css";
+#wrapper {
+    clear: both;
+    height: auto !important;
+    margin: 0 auto;
+    min-height: 600px;
+    width: 1000px;
+}
+#sideLeft {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    overflow: hidden;
+    width: 225px;
+}
+.left_con {
+    border: 1px solid #C5C4C4;
+    margin-top: 5px;
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 220px;
+}
+.left_con_title {
+    background: url("../images/financial/title_bg_1.jpg") repeat-x scroll 0 0           
+	transparent;
+    border-bottom: 1px solid #C5C4C4;
+    color: #666666;
+    font-weight: bold;
+    height: 26px;
+    line-height: 26px;
+    margin-bottom: 15px;
+    width: 220px;
+}
+.left_con_title img {
+    margin: 0 10px 0 15px;
+}
+ul, li {
+    list-style: none outside none;
+}
+
+.left_con li {
+    height: 35px;
+    list-style: none outside none;
+    text-align: center;
+}
+#sideRightSer {
+    background: none repeat scroll 0 0 #FFFFFF;
+    float: left;
+    overflow: hidden;
+    padding-left: 5px;
+    width: 770px;
+}
+.nav_Oneminiter1 {
+    background: url("../images/financial/nav0417.jpg") no-repeat scroll center center transparent;
+    border: 1px solid #C5C4C4;
+    height: 70px;
+    margin-top: 5px;
+    padding-left: 30px;
+    width: 738px;
+}
+.nav_Oneminiter {
+    background: url("../images/financial/nav0416.jpg") no-repeat scroll center center transparent;
+    border: 1px solid #C5C4C4;
+    height: 70px;
+    margin-top: 5px;
+    padding-left: 30px;
+    width: 738px;
+}
+.analyses-div {
+    margin: 10px auto;
+    width: 100%;
+}
+
+.banner-title {
+    background: url("../images/financial/banner-title.gif") repeat-x scroll 0 0 transparent;
+    height: 57px;
+    width: 100%;
+}
+
+.banner-title .banner-title-left {
+    background: url("../images/financial/banner-title-left.gif") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 57px;
+    width: 3px;
+}
+
+.banner-title .banner-title-middle {
+    color: #FEA330;
+    float: left;
+    font-size: 17px;
+    font-weight: bold;
+    height: 57px;
+    line-height: 57px;
+    padding-left: 10px;
+    vertical-align: middle;
+}
+.banner-title .banner-title-right {
+    background: url("../images/financial/banner-title-right.gif") no-repeat scroll 0 0 transparent;
+    float: right;
+    height: 57px;
+    width: 3px;
+}
+.questionItem {
+    border: 1px solid #E9E9E9;
+    margin-bottom: 4px;
+}
+
+.questionItem .question {
+}
+.questionItem .questionArea {
+    background: url("../images/financial/question-title-bg.gif") repeat-x scroll 0 0 transparent;
+    color: #FFA02B;
+    font-size: 12px;
+    font-weight: bold;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle;
+}
+
+.questionItem .questionArea span {
+    display: block;
+    float: left;
+}
+.questionItem .questionNo {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.questionItem .questionArea span {
+    display: block;
+    float: left;
+}
+.questionItem .optionArea ul, .optionArea ul li {
+    list-style: none outside none;
+}
+.questionItem .questionContent {
+}
+.questionItem .optionArea {
+    background: none repeat scroll 0 0 #FCFCFC;
+    color: #4E4E4E;
+    font-size: 12px;
+    padding: 5px 0;
+}
+.questionItem .optionGroup li {
+    display: inline;
+    margin-left: 20px;
+}
+.optionElement {
+    display: block;
+    height: 24px;
+    line-height: 24px;
+}
+input {
+    line-height: 16px;
+}
+.text-align-center {
+    margin: 35px 0 45px;
+    text-align: center;
+}
+.main {
+    height: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: relative;
+    width: 1000px;
+}
+.container {
+    background: url("../images/financial/container-bg.gif") repeat-y scroll 0 0 transparent;
+    height: auto;
+    margin: 0 auto;
+    width: 1038px;
+}
+
+.next-step {
+    background: url("../images/financial/next-step.gif") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    cursor: pointer;
+    height: 28px;
+    margin: auto;
+    width: 82px;
+}
+.chart {
+    height: 6px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 3px;
+    overflow: hidden;
+}
+.highLevel {
+    background: none repeat scroll 0 0 #FEBF01;
+    border: 1px solid #BE8F00;
+    width: 200px;
+}
+.mediumLevel {
+    background: none repeat scroll 0 0 #3DB9EA;
+    border: 1px solid #168BAA;
+    width: 130px;
+}
+.lowLevel {
+    background: none repeat scroll 0 0 #CDEB8B;
+    border: 1px solid #AACF58;
+    width: 50px;
+}
+.noneLevel {
+    background-color: white;
+    width: 5px;
+}
+.lfloat {
+    color: #FF9934;
+    float: left;
+}
+.FF9934 {
+    color: #FF9934;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.bottom_btn {
+	display: inline;
+	margin-left: 200px;
+	position: relative;
+	top: 25px;
+}
+.bottom_btn input{
+	margin-left: 10px;
+}
+.choice{
+	margin-left: 92px;
+	margin-top: 90px;
+	display: inline;
+}
+.choice input,img{
+	vertical-align:middle;
+}
+.choice a{
+	margin-left: 20px;
+}
+.pst input,img{
+	vertical-align:middle;
+}
+.pst img{
+	margin-left: 5px;
+}
+.tabul{
+    height: 24px;	
+}

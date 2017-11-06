@@ -1,0 +1,25 @@
+.box-163css{ width:800px; margin:20px auto;}
+.list_img{ width:800px;}
+.list_img li{ padding-top:12px; background:url(../images/bg03.gif) repeat-x; text-align:center; height:210px; width:178px; border:1px solid #c7c7c7; float:left; display:inline; margin-left:15px;}
+.list_img .ppic{ margin-bottom:7px;}
+.list_img li a{ display:block;}
+.list_img li .a1{ text-decoration:underline; color:#049; font-weight:bold;}
+.list_img li strong{ font-size:14px; color:#049; margin:8px 0; display:block;}
+.list_img li .a2{ width:104px; margin:0 auto;}
+.db { width:157px; float:left; border:1px solid #c1cfe8; border-top:none; padding-bottom:10px; overflow:hidden;}
+.db1 {FLOAT: left; margin:0 -1px; background:url(../images/bg01.gif) no-repeat; WIDTH: 159px; overflow:hidden; height:30px; line-height:30px;}
+.db11 { padding-left:27px;FONT-WEIGHT: bold; FLOAT: left; COLOR: #049;}
+.db12 {FLOAT: right; WIDTH: 21px; PADDING-TOP: 6px; TEXT-ALIGN: left}
+.db2 {FLOAT: left; WIDTH: 157px; PADDING-TOP: 7px; border-bottom:1px dashed #cbd7e5;}
+.db2r {FLOAT: left; cursor:pointer; WIDTH: 157px; PADDING-TOP: 7px;border-bottom:1px dashed #cbd7e5;}
+.db3 { position:relative; padding-bottom:6px; WIDTH: 150px; margin-left:3px;}
+.db31 {FLOAT: left; text-align:center; WIDTH:150px; TEXT-ALIGN: left}
+.db31 a{ margin:0 auto; display:block; width:33px;margin:0 auto;}
+.db31 img{ height:90px; }
+.db32 { width:100%; padding:5px 0; text-align:center;}
+.db32 A {COLOR: #0044dd; TEXT-DECORATION: none}
+.db33 { position:absolute; right:0; top:0; WIDTH: 16px; TEXT-ALIGN: left}
+.db4 {FLOAT: left; margin-bottom:10px; width:100%;PADDING-TOP: 6px; HEIGHT: 29px; BACKGROUND-COLOR: white; TEXT-ALIGN: center}
+.db4 input{ background:url(../images/bg05.gif) no-repeat; width:82px; height:29px; text-indent:-999em; display:block; border:none;  cursor:pointer; margin:0 auto;}
+.db5 {FONT-SIZE: 12px; padding-bottom:10px; float:left; width:100%;COLOR: #0044dd; HEIGHT: 20px; BACKGROUND-COLOR: white; TEXT-ALIGN: center}
+.db5 a{background:url(../images/bg05.gif) no-repeat 0 -33px; width:82px; height:29px;margin:0 auto; text-indent:-999em; display:block;}
